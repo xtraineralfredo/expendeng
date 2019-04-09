@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sources</title>
+</head>
+<body>
+<table border="1">
+    <tr>
+        <td>Name</td>
+        <td>Description</td>
+    </tr>
+    {% for test in source_list %}
+        <tr><td>{{test.name}}</td><td>{{test.description}}</td></tr>
+    {% endfor %}
+</table>
+</body>
+</html>
